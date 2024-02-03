@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Weather-Forecast/static/css/main.2bb60cb9.css",
+    "main.js": "/Weather-Forecast/static/js/main.e78d3afb.js",
+    "static/js/592.871ab89a.chunk.js": "/Weather-Forecast/static/js/592.871ab89a.chunk.js",
+    "static/media/loader.gif": "/Weather-Forecast/static/media/loader.40618d00e753b7c836a6.gif",
+    "static/media/weather.png": "/Weather-Forecast/static/media/weather.22654b03bb39517876bf.png",
+    "index.html": "/Weather-Forecast/index.html",
+    "main.2bb60cb9.css.map": "/Weather-Forecast/static/css/main.2bb60cb9.css.map",
+    "main.e78d3afb.js.map": "/Weather-Forecast/static/js/main.e78d3afb.js.map",
+    "592.871ab89a.chunk.js.map": "/Weather-Forecast/static/js/592.871ab89a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bb60cb9.css",
+    "static/js/main.e78d3afb.js"
+  ]
+}
