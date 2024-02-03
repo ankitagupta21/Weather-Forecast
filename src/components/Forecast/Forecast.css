@@ -1,0 +1,38 @@
+.forecast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4vw 0vw;
+}
+.forecastBox{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(254, 252, 252, 0.1);
+    padding: 2vw;
+    margin: 0vw 2vw;
+    margin-top: 4vw;
+    border-radius: 10px;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.day{
+    font-size: 3vw;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: -1vw;
+}
+.forecast .tempChange{
+    
+}
+
+@media screen and (max-width: 750px) {
+    .forecastBox{
+        padding: 4vw 2.3vw;
+        margin: 4vw;
+    }
+    .day{
+        font-size: 4vw;
+    }
+}

@@ -1,4 +1,3 @@
-// services/WeatherService.js
 const apiKey = "08452e311bdb4624b43b23d7fddb4683";
 
 const fetchWeatherData = async (city) => {

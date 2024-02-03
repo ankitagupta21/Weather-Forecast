@@ -6,12 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin:0;
   padding:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100%;
-  background-repeat: no-repeat;
-  background: radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 100%);
+  min-height: 100%;
+  background: linear-gradient( rgb(211, 232, 253) 0%, rgb(255, 247, 228) 100%) fixed;
 }
 
 code {

@@ -1,39 +1,85 @@
 .App {
+ width:100%;
+}
+.heading{
   text-align: center;
-  
+  font-size: 4vw;
+  font-weight: 600;
+  color: #333;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cityHead{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: -3vw;
+}
+.city{
+  font-size: 3vw;
+  font-weight: 600;
+  color: #333;
+}
+.content{
+  width:80%;
+  margin: auto;
+}
+.icon{
+  font-size: 2vw;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.message{
+  text-align: center;
+  font-size: 3vw;
+  color: #333;
+  margin-top: 5vw;
+  margin:5vw
+}
+.message .icon{
+  font-size: 5vw;
+}
+.weatherImg{
+  width: 60%;
+  height: 100%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.loader{
+  width:30%;
+  margin:auto;
+  height:30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 750px) {
+  .heading{
+    font-size: 7vw;
   }
-  to {
-    transform: rotate(360deg);
+  .cityHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vw;
+  margin-bottom: -4vw;
+  }
+  .city{
+    font-size: 4vw;
+    font-weight: 600;
+    color: #333;
+  }
+  .content{
+    width:90%;
+    margin: auto;
+  }
+  .icon{
+    font-size: 4vw;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .error{
+    text-align: center;
+    font-size: 5vw;
+    color: #333;
+    margin-top: 10vw;
+  }
+  .error .icon{
+    font-size: 8vw;
   }
 }
